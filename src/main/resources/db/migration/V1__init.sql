@@ -1,0 +1,6 @@
+CREATE TABLE practice_member_model (
+	urn varchar(255) not null primary key,
+	data BLOB not null
+);
+
+INSERT INTO `practice_member_model` (`urn`,`data`) VALUES ('6db28b99-63c1-4aef-a7dd-9a206cd5af0f:i81232','{"type":"PracticeMember","memberId":{"urn":"6db28b99-63c1-4aef-a7dd-9a206cd5af0f:i81232"},"employeId":"i81232","firstName":"Amal","lastName":"Vijay","lineManager":{"type":"LineManager","lineManagerId":"I81503","lineManagerName":"Jayakrishnan"},"practiceId":{"urn":"http://www-devemployeedb.allianz.co.uk/employeedb/practices/de305d54-75b4-431b-adb2-eb6b9e546014"},"employeeSkills":[{"type":"EmployeeSkill","skillId":{"urn":"http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014"},"experienceInMonths":48,"currentSkill":true,"primaySkill":true},{"type":"EmployeeSkill","skillId":{"urn":"http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014"},"experienceInMonths":36,"currentSkill":true,"primaySkill":true},{"type":"EmployeeSkill","skillId":{"urn":"http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014"},"experienceInMonths":36,"currentSkill":true,"primaySkill":false}],"skillCollection":null}');

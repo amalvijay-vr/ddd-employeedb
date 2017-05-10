@@ -1,0 +1,32 @@
+{
+  "type": "CreatePracticeMemberCommand",
+  "employeeId": "i81232",
+  "firstName": "Amal",
+  "lastName": "Vijay",
+  "lineManagerId": "I81503",
+  "lineManagerName": "Jayakrishnan",
+  "practiceId": "http://www-devemployeedb.allianz.co.uk/employeedb/practices/de305d54-75b4-431b-adb2-eb6b9e546014",
+  "employeeSkills": [
+    {
+      "type": "EmployeeSkill",
+      "skillId": "http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014",
+      "experienceInMonths": 48,
+      "currentSkill": true,
+      "primarySkill": true
+    },
+    {
+      "type": "EmployeeSkill",
+      "skillId": "http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014",
+      "experienceInMonths": 36,
+      "currentSkill": true,
+      "primarySkill": true
+    },
+    {
+      "type": "EmployeeSkill",
+      "skillId": "http://www-devemployeedb.allianz.co.uk/employeedb/skills/de305d54-75b4-431b-adb2-eb6b9e546014",
+      "experienceInMonths": 36,
+      "currentSkill": true,
+      "primarySkill": false
+    }
+  ]
+}
